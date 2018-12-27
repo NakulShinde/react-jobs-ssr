@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend Developer",
+        "description": "Comfortable with modern JS stack, experience with React.",
+        "employment_type": "full_time"
+    }, {
+        "id": 2,
+        "title": "Fullstack Developer",
+        "description": "Comfortable with modern JS stack, experience with React.",
+        "employment_type": "part_time"
+    }, {
+        "id": 3,
+        "title": "Java Developer",
+        "description": "Comfortable with modern JS stack, experience with React.",
+        "employment_type": "contract"
+    }, {
+        "id": 4,
+        "title": "Backend Developer",
+        "description": "Comfortable with modern JS stack, experience with React.",
+        "employment_type": "full_time"
+    }
+]
