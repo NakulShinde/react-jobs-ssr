@@ -24,7 +24,7 @@ app.disable('x-powered-by');
 
 // server rendered home page
 app.get('/', (req, res) => {
-    const {content, styles} = ssr(initialState)
+    const {content, styles} = ssr(req, initialState)
     const response = template("Server Rendered Page", "", content, styles)
     res.setHeader('Cache-Control', 'assets, max-age=604800')
     res.send(response);

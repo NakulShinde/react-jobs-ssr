@@ -1,5 +1,7 @@
 import React from 'react'
 import {hydrate} from 'react-dom'
+import {BrowserRouter} from 'react-router-dom';
+
 import App from './components/App'
 
 /**
@@ -9,4 +11,6 @@ import App from './components/App'
  */
 
 hydrate(
-    <App/>, document.querySelector('#app'))
+    <BrowserRouter>
+    <App/>
+</BrowserRouter>, document.querySelector('#app'))
